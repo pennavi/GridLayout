@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fourth layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+
+        .andhra {
+            background-color: rgb(173, 224, 230);
+        }
+
+        .telangana {
+            background-color: rgb(240, 128, 180);
+            grid-row: 1/3;   
+            grid-column: 2/3;
+
+        }
+
+        .chennai {
+            background-color: rgb(255, 234, 224);
+        }
+
+        .karnataka {
+            background-color: lightgoldenrodyellow;
+            grid-row: 2/4;
+        }
+
+        .goa {
+            background-color: lightgreen;
+            grid-row: 2/4;
+        }
+
+        .odisha {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="andhra">andhra</div>
+        <div class="telangana">andhra</div>
+        <div class="chennai">chennai</div>
+        <div class="karnataka">karnataka</div>
+        <div class="goa">goa</div>
+        <div class="odisha">odisha</div>
+    </div>
+</body>
+</html>

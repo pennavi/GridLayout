@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nineth Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height: 100vh;
+            gap: 5px;
+        
+        }
+
+        .Google {
+            background-color: lightblue;
+        }
+
+        .Amazon {
+            background-color: lightcoral;
+        }
+
+        .Microsoft {
+            background-color: lightcyan;
+        }
+
+        .Apple {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .Facebook {
+            background-color: lightgreen;
+            grid-column: 1/3;
+        }
+
+        .Meta {
+            background-color: lightpink;
+            grid-column: 3/5;
+        }
+
+        .IBM {
+            background-color: lightsalmon;
+        }
+
+        .Tesla {
+            background-color: lightseagreen;
+        }
+
+        .Intel {
+            background-color: lightskyblue;
+        }
+
+        .Oracle {
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Google">Google</div>
+        <div class="Amazon">Amazon</div>
+        <div class="Microsoft">Microsoft</div>
+        <div class="Apple">Apple</div>
+        <div class="Facebook">Facebook</div>
+        <div class="Meta">Meta</div>
+        <div class="IBM">IBM</div>
+        <div class="Tesla">Tesla</div>
+        <div class="Intel">Intel</div>
+        <div class="Oracle">Oracle</div>
+    </div>
+</body>
+</html>

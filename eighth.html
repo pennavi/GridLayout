@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eighth Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+
+        .css {
+            background-color: lightblue;
+            grid-row: 1/4;
+        }
+
+        .html {
+            background-color: lightcoral;
+            grid-column: 2/4;
+            grid-row: 1/3;
+        }
+
+        .sql {
+            background-color: lightcyan;
+        }
+
+        .python {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .java {
+            background-color: lightgreen;
+        }
+
+        .nodejs {
+            background-color: lightpink;
+        }
+
+        .reactjs {
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="css">css</div>
+        <div class="html">html</div>
+        <div class="sql">sql</div>
+        <div class="python">python</div>
+        <div class="java">java</div>
+        <div class="nodejs">nodejs</div>
+        <div class="reactjs">reactjs</div>
+    </div>
+</body>
+</html>

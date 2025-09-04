@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sixth Layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+
+        .fruits {
+            background-color: rgb(0, 0, 0);
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        .vegetables {
+            background-color: lightcoral;
+        }
+
+        .drinks {
+            background-color: rgb(128, 7, 13);
+        }
+
+        .fastfood {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .Dessert {
+            background-color: lightgreen;
+        }
+
+        .seafood {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Fruits">Fruits</div>
+        <div class="vegetables">Vegetables</div>
+        <div class="drinks">drinks</div>
+        <div class="fastfood">fastfood</div>
+        <div class="Dessert">Dessert</div>
+        <div class="seafood">seafood</div>
+    </div>
+</body>
+</html>
